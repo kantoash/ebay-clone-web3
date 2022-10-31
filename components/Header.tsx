@@ -74,11 +74,11 @@ function Header() {
           />
         </div>
         <button className="text-white bg-blue-500 hidden sm:inline px-5 md:px-10 py-2 border-2 border-blue-500">Search</button>
-        {/* <Link href={}> */}
+        <Link href={"/Create"}>
         <button className="border border-blue-500 text-blue-500 hidden sm:inline px-5 md:px-10 py-2 hover:bg-blue-500/50 hover:text-white">
           List Item
         </button>
-        {/* </Link> */}
+        </Link>
       </section>
       <hr />
       <section className="flex items-center py-3 text-sm whitespace-nowrap justify-center px-7">
