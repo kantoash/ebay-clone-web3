@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <div className=" py-2 px-5">
-      <nav className="flex justify-between  max-w-6xl mx-auto sticky top-0 z-50">
+      <nav className="flex justify-between  max-w-6xl mx-auto sticky top-0 z-50 py-2 bg-white">
         <div className="flex items-center space-x-2 text-xs ">
           {address ? (
             <button onClick={disconnect} className="connectWalletbtn ">
